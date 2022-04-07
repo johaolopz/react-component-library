@@ -1,11 +1,11 @@
 import { Box, Button } from "@chakra-ui/react"
-import logo from '../assets/images/logo.svg'
+import logo from '../../assets/images/logo.svg'
 
 export interface ButtonProps {
     label: string;
 }
 
-export const MyButton = (props: ButtonProps) => {
+const MyButton = (props: ButtonProps) => {
   return (
     <Box display='flex' flexDirection='column' alignItems='center'>
         <Button onClick={()=>alert(props.label)}>
@@ -15,3 +15,5 @@ export const MyButton = (props: ButtonProps) => {
     </Box>
   )
 }
+
+export default MyButton

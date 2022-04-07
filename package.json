@@ -1,6 +1,9 @@
 {
-  "name": "reactcomponentlibrary",
-  "private": true,
+  "name": "@johaolopz/react-component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/johaolopz"
+  },
+  "private": false,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

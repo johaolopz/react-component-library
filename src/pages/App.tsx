@@ -1,4 +1,4 @@
-import { MyButton } from '../components/MyButton'
+import MyButton from '../components/MyButton/MyButton'
 
 function App() {
   return (
